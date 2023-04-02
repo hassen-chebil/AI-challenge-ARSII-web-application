@@ -43,7 +43,6 @@ def main():
     # return response object 
     response = requests.get(complete_url) 
 
-    # json method of response object 
     # convert json format data into 
     # python format data 
     x = response.json() 
@@ -104,4 +103,3 @@ if __name__ == "__main__":
             st.write("City not Found !")
 
 
-            
